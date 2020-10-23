@@ -14,7 +14,6 @@ Original App Design Project - README Template
 ClassChat is an online classroom app designed to provide the basic features needed to run online logistics for a class while retaining an easy-to-use chatroom for students and teachers to quickly communicate.
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
 - **Category:** Education / Social Network
 - **Mobile:** Developed for only mobile usage
 - **Story:** Allows teachers to post assignments, grades and announcements. Students can view what the teacher posts. Additionally, students and teachers can chat in the chatrooms.
