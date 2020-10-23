@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# ClassChat
 
 ## Table of Contents
 1. [Overview](#Overview)
@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+ClassChat is an online classroom app designed to provide the basic features needed to run online logistics for a class while retaining an easy-to-use chatroom for students and teachers to quickly communicate.
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category:** Education / Social Network
+- **Mobile:** Developed for only mobile usage
+- **Story:** Allows teachers to post assignments, grades and announcements. Students can view what the teacher posts. Additionally, students and teachers can chat in the chatrooms.
+- **Market:** Students and teachers in education.
+- **Habit:** Frequently. Students and teachers would actively engage with each other.
+- **Scope:** Focused on basic online class logistics then expand to make logistic handling more robust.
 
 ## Product Spec
 
@@ -28,47 +28,48 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* User logs in as either a student or teacher
+* Students can access announcements, grades, and assignments
+* Teachers can post and delete announcements, grades, and assignments
+* Students and teachers can text on the chatrooms
+* Teachers can create and delete chatrooms
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* Users can customize profile with profile picture and biography
+* Users can switch between classes
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Login/Register
+* Announcements
+    * Teachers can post new announcements (title + description)
+    * Students can view announcements
+* Assignments
+    * Teachers can post new assignments (title + description + points)
+    * Students can view assignments
+* Grades
+    * Teachers can post grades for assignments (title + points earned + letter grade)
+    * Students can view grades
+* Chatroom
+    * Teachers can create new chatrooms (title)
+    * Students and teachers can chat in chatrooms
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
+* Announcements
+* Assignments
+* Grades
+* Chatroom
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
 
 **Flow Navigation** (Screen to Screen)
-
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* Forced Log-in -> Account creation if no log in is available
+* Announcements
 
 ## Wireframes
-[Add picture of your hand sketched wireframes in this section]
-<img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
-
-### [BONUS] Digital Wireframes & Mockups
-
-### [BONUS] Interactive Prototype
+<img src="https://i.imgur.com/AwwBIec.jpg" width=600>
 
 ## Schema 
 [This section will be completed in Unit 9]
