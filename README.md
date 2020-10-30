@@ -73,7 +73,8 @@ ClassChat is an online classroom app designed to provide the basic features need
 #### Classroom Model
 | Property      | Type     | Description |
 | ------------- | -------- | ------------|
-| classId       | String   | classroom id generated for students to use to join class |
+| objectId      | String   | unique id (default field) |
+| classId       | String   | unique classroom id generated for students to use to join class |
 | teacher       | Pointer to User | teacher of the classroom |
 | students      | Array of pointers to Users | all students currently in class |
 | announcements | Array of pointers to Announcements   | classroom announcements |
@@ -83,7 +84,7 @@ ClassChat is an online classroom app designed to provide the basic features need
 #### User Model
 | Property      | Type     | Description |
 | ------------- | -------- | ------------|
-| userId        | String   | unique id for the user (default field) |
+| objectId      | String   | unique id for the user (default field) |
 | name          | String   | name of user |
 | classroom ids | String   | ids corresponding to classrooms the user is in |
 
