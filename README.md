@@ -124,6 +124,34 @@ ClassChat is an online classroom app designed to provide the basic features need
 | timestamp     | Date     | time message was sent |
 
 ### Networking
-- [Add list of network requests by screen ]
-- [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+#### List of network requests depending on user and screen
+- Teacher Account
+    - Classrooms Page
+        - (READ/GET) Query all classrooms that the user is a part of
+    - Announcements Page
+        - (Read/GET) Query all announcements for corresponding classroom
+        - (Create/POST) Create a new announcement
+        - (Update/PUT) Update an existing announcement
+        - (Delete) Delete an announcement
+    - Assignments Page
+        - (Read/GET) Query all assignments for corresponding classroom
+        - (Create/POST) Create a new assignment
+        - (Update/PUT) Update an existing assignment
+        - (Delete) Delete an assignment
+        - (Update/PUT) Update a student's assignment grade
+    - Chatrooms Page
+        - (Read/GET) Query all chatrooms for corresponding classroom
+        - (Create/POST) Create a chatroom
+        - (Update/PUT) Update a chatroom's name or description
+        - (Delete) Delete a chatroom
+        - (Create/POST) Create a message in a chatroom
+- Student Account
+    - Classrooms Page
+        - (READ/GET) Query all classrooms that the user is a part of
+    - Announcements Page
+        - (Read/GET) Query all announcements for corresponding classroom
+    - Assignments Page
+        - (Read/GET) Query all assignments for corresponding classroom
+    - Chatrooms Page
+        - (Read/GET) Query all chatrooms for corresponding classroom
+        - (Create/POST) Create a message in a chatroom
