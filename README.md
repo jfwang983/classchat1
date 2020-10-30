@@ -73,7 +73,59 @@ ClassChat is an online classroom app designed to provide the basic features need
 ## Schema 
 [This section will be completed in Unit 9]
 ### Models
-[Add table of models]
+
+#### Classroom Model
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| classId       | String   | classroom id generated for students to use to join class |
+| teacher       | Pointer to User | teacher of the classroom |
+| students      | Array of pointers to Users | all students currently in class |
+| announcements | Array of pointers to Announcements   | classroom announcements |
+| assignments   | Array of pointers to Assignments  | classroom assignments |
+| chatrooms     | Array of pointers to Chatrooms   | classroom chatrooms |
+
+#### User Model
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| userId        | String   | unique id for the user (default field) |
+| name          | String   | name of user |
+| classroom ids | String   | ids corresponding to classrooms the user is in |
+
+#### Announcement Model
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| objectId      | String   | unique id for the announcement (default field) |
+| name          | String   | name of announcement |
+| description   | String   | announcement description |
+| classroom id  | String   | id to corresponding classroom |
+
+#### Assignment Model
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| objectId      | String   | unique id for the assignment (default field) |
+| name          | String   | name of assignment |
+| description   | String   | assignment description |
+| pointValue    | Number   | point value for assignment |
+| dueDate       | Date     | assignment due date |
+| grades        | Object   | key for each student's user id with value as their grade |
+| classroom id  | String   | id to corresponding classroom |
+
+#### Chatroom Model
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| objectId      | String   | unique id for the chatroom (default field) |
+| name          | String   | name of chatroom |
+| chats         | Array of pointers to Chats | all chats sent in chatroom |
+| classroom id  | String   | id to corresponding classroom |
+
+#### Chat Model
+| Property      | Type     | Description |
+| ------------- | -------- | ------------|
+| objectId      | String   | unique id for the chat (default field) |
+| user          | Pointer to User | user that sent the chat |
+| message       | String   | actual message sent |
+| timestamp     | Date     | time message was sent |
+
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
