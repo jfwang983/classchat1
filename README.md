@@ -71,7 +71,6 @@ ClassChat is an online classroom app designed to provide the basic features need
 <img src="https://i.imgur.com/AwwBIec.jpg" width=600>
 
 ## Schema 
-[This section will be completed in Unit 9]
 ### Models
 
 #### Classroom Model
