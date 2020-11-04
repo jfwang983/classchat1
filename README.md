@@ -93,6 +93,7 @@ ClassChat is an online classroom app designed to provide the basic features need
 | ------------- | -------- | ------------|
 | objectId      | String   | unique id for the announcement (default field) |
 | name          | String   | name of announcement |
+| date          | Date     | announcement date |
 | description   | String   | announcement description |
 | classroom id  | String   | id to corresponding classroom |
 
