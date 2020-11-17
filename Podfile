@@ -6,6 +6,7 @@ target 'Class Chat' do
   use_frameworks!
 
   # Pods for Class Chat
+  pod 'Parse'
   pod 'CardParts'
 
   target 'Class ChatTests' do
