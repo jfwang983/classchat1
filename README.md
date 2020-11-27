@@ -156,3 +156,5 @@ ClassChat is an online classroom app designed to provide the basic features need
     - Chatrooms Page
         - (Read/GET) Query all chatrooms for corresponding classroom
         - (Create/POST) Create a message in a chatroom
+
+<img src='http://g.recordit.co/lo8Q12KU0Y.gif' title='Progress' width='' alt='Progress' />
