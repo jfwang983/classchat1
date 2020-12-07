@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17156" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17125"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -17,19 +17,19 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="X3q-No-tPh">
-                                <rect key="frame" x="50" y="330" width="314" height="88"/>
+                                <rect key="frame" x="50" y="353.5" width="314" height="88"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" spacing="17" translatesAutoresizingMaskIntoConstraints="NO" id="EUR-tI-cf4" userLabel="Username Stack View">
                                         <rect key="frame" x="0.0" y="0.0" width="314" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Username" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DEV-Vt-Jfc">
-                                                <rect key="frame" x="0.0" y="0.0" width="78.5" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="85.5" height="34"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xaH-5O-mxn" userLabel="Username Field">
-                                                <rect key="frame" x="95.5" y="0.0" width="218.5" height="34"/>
+                                                <rect key="frame" x="102.5" y="0.0" width="211.5" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits"/>
                                             </textField>
@@ -39,13 +39,13 @@
                                         <rect key="frame" x="0.0" y="54" width="314" height="34"/>
                                         <subviews>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Password" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="y5P-R7-EAe">
-                                                <rect key="frame" x="0.0" y="0.0" width="73.5" height="34"/>
-                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="80.5" height="34"/>
+                                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Ti0-PU-eum" userLabel="Password Field">
-                                                <rect key="frame" x="95.5" y="0.0" width="218.5" height="34"/>
+                                                <rect key="frame" x="102.5" y="0.0" width="211.5" height="34"/>
                                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                                 <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
                                             </textField>
@@ -53,27 +53,32 @@
                                     </stackView>
                                 </subviews>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Login" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K4-NP-29p">
-                                <rect key="frame" x="171" y="194" width="72" height="36"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K4-NP-29p">
+                                <rect key="frame" x="74" y="194" width="266" height="59.5"/>
+                                <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="51"/>
+                                <color key="textColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="keN-7c-49C">
-                                <rect key="frame" x="71" y="543" width="272" height="36"/>
+                                <rect key="frame" x="56.5" y="566.5" width="301" height="38"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sG8-hI-mEy" userLabel="Login Button">
-                                        <rect key="frame" x="0.0" y="0.0" width="49" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Login"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="60" height="38"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
+                                        <state key="normal" title="Login">
+                                            <color key="titleColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
                                         <connections>
                                             <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pLf-py-OFt"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RUi-8k-Yzc" userLabel="Register Button">
-                                        <rect key="frame" x="199" y="0.0" width="73" height="36"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                        <state key="normal" title="Register"/>
+                                        <rect key="frame" x="210" y="0.0" width="91" height="38"/>
+                                        <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
+                                        <state key="normal" title="Register">
+                                            <color key="titleColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
                                         <connections>
                                             <action selector="onRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="15E-1G-vMI"/>
                                         </connections>
@@ -82,7 +87,7 @@
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
                             <constraint firstItem="1K4-NP-29p" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Bmw-Pw-rlG"/>
                             <constraint firstItem="1K4-NP-29p" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="150" id="GfC-ha-mQM"/>
@@ -104,7 +109,7 @@
             </objects>
             <point key="canvasLocation" x="7" y="129"/>
         </scene>
-        <!--View Controller-->
+        <!--Announcements-->
         <scene sceneID="zeS-Ow-EQP">
             <objects>
                 <viewController id="ZfI-ZA-tss" sceneMemberID="viewController">
@@ -125,9 +130,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Announcement Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jxM-ea-v31">
-                                                    <rect key="frame" x="20" y="11" width="165" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="166" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -154,10 +159,11 @@
                         <viewLayoutGuide key="safeArea" id="fk8-7j-ahK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Announcements" image="announcements icon" id="o80-Vd-3lY"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="79S-AD-iab" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3339.130434782609" y="150.66964285714286"/>
+            <point key="canvasLocation" x="3225" y="129"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="hNj-hB-z78">
@@ -195,7 +201,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NSw-QP-pBs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2844.9275362318845" y="1300.4464285714284"/>
+            <point key="canvasLocation" x="2819" y="1129"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dnH-MY-UoP">
@@ -240,9 +246,9 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7L-2x-yBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3723" y="1300"/>
+            <point key="canvasLocation" x="3993" y="1128"/>
         </scene>
-        <!--View Controller-->
+        <!--Assignments-->
         <scene sceneID="TmN-h5-CTQ">
             <objects>
                 <viewController id="yQu-fu-dhW" sceneMemberID="viewController">
@@ -302,12 +308,13 @@
                         <viewLayoutGuide key="safeArea" id="CyH-xg-h4R"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Assignments" image="assignment icon" id="qYu-LT-rlG"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zRp-pa-Qh5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4647.826086956522" y="630.80357142857144"/>
+            <point key="canvasLocation" x="3939" y="129"/>
         </scene>
-        <!--View Controller-->
+        <!--Grades-->
         <scene sceneID="w58-3a-VDX">
             <objects>
                 <viewController id="cOC-uF-tTp" sceneMemberID="viewController">
@@ -381,10 +388,11 @@
                         <viewLayoutGuide key="safeArea" id="bO3-Xi-5nj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <tabBarItem key="tabBarItem" title="Grades" image="grades" id="xl2-Ck-nuM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UOq-dO-uFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="5502.898550724638" y="630.80357142857144"/>
+            <point key="canvasLocation" x="4746" y="129"/>
         </scene>
         <!--Classes-->
         <scene sceneID="RY3-us-KoF">
@@ -407,9 +415,9 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acy-Hr-LsX">
-                                                    <rect key="frame" x="20" y="11" width="96" height="21"/>
+                                                    <rect key="frame" x="20" y="11" width="99" height="20"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                                    <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
@@ -449,9 +457,13 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Classes" id="dvj-7S-emf">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="Fvo-CD-nVh">
+                            <color key="tintColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                             <connections>
                                 <action selector="onLogout:" destination="BKi-sN-X6S" id="A2Y-GY-cEK"/>
                             </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="Chat" id="qpU-Hy-XYf">
+                            <color key="tintColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -459,6 +471,25 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7i-0B-xwd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1710" y="129"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="ard-LG-j3s">
+            <objects>
+                <tabBarController id="6c9-Uh-zAh" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="LIQ-eN-QJR">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="ZfI-ZA-tss" kind="relationship" relationship="viewControllers" id="NZK-nx-Gaq"/>
+                        <segue destination="yQu-fu-dhW" kind="relationship" relationship="viewControllers" id="bUs-ih-4wS"/>
+                        <segue destination="cOC-uF-tTp" kind="relationship" relationship="viewControllers" id="kRS-bV-wOO"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VJt-kO-hOr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3938" y="-621"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="OLb-Le-9nF">
@@ -480,6 +511,9 @@
         </scene>
     </scenes>
     <resources>
+        <image name="announcements icon" width="30" height="26"/>
+        <image name="assignment icon" width="30" height="30"/>
+        <image name="grades" width="24" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
