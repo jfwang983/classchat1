@@ -56,7 +56,7 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Chat" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1K4-NP-29p">
                                 <rect key="frame" x="74" y="194" width="266" height="59.5"/>
                                 <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="51"/>
-                                <color key="textColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" systemColor="systemGreenColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="150" translatesAutoresizingMaskIntoConstraints="NO" id="keN-7c-49C">
@@ -67,7 +67,7 @@
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
                                         <state key="normal" title="Login">
-                                            <color key="titleColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
                                         </state>
                                         <connections>
                                             <action selector="onLogin:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pLf-py-OFt"/>
@@ -77,7 +77,7 @@
                                         <rect key="frame" x="210" y="0.0" width="91" height="38"/>
                                         <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="22"/>
                                         <state key="normal" title="Register">
-                                            <color key="titleColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                            <color key="titleColor" systemColor="systemGreenColor"/>
                                         </state>
                                         <connections>
                                             <action selector="onRegister:" destination="BYZ-38-t0r" eventType="touchUpInside" id="15E-1G-vMI"/>
@@ -457,13 +457,13 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" title="Classes" id="dvj-7S-emf">
                         <barButtonItem key="leftBarButtonItem" title="Logout" id="Fvo-CD-nVh">
-                            <color key="tintColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="tintColor" systemColor="systemGreenColor"/>
                             <connections>
                                 <action selector="onLogout:" destination="BKi-sN-X6S" id="A2Y-GY-cEK"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Chat" id="qpU-Hy-XYf">
-                            <color key="tintColor" red="0.42950573559999999" green="0.75282281640000004" blue="0.94120448830000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                            <color key="tintColor" systemColor="systemGreenColor"/>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -480,6 +480,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="selectedImageTintColor" systemColor="systemGreenColor"/>
                     </tabBar>
                     <connections>
                         <segue destination="ZfI-ZA-tss" kind="relationship" relationship="viewControllers" id="NZK-nx-Gaq"/>
@@ -519,6 +520,9 @@
         </systemColor>
         <systemColor name="systemGrayColor">
             <color red="0.55686274509803924" green="0.55686274509803924" blue="0.57647058823529407" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemGreenColor">
+            <color red="0.20392156862745098" green="0.7803921568627451" blue="0.34901960784313724" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>
