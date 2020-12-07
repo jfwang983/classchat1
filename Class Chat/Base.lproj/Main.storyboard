@@ -388,7 +388,7 @@
                         <viewLayoutGuide key="safeArea" id="bO3-Xi-5nj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
-                    <tabBarItem key="tabBarItem" title="Grades" image="grades" id="xl2-Ck-nuM"/>
+                    <tabBarItem key="tabBarItem" title="Grades" image="grades icon" id="xl2-Ck-nuM"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UOq-dO-uFM" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -513,7 +513,7 @@
     <resources>
         <image name="announcements icon" width="30" height="26"/>
         <image name="assignment icon" width="30" height="30"/>
-        <image name="grades" width="24" height="30"/>
+        <image name="grades icon" width="24" height="30"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
