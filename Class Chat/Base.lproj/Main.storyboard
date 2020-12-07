@@ -114,7 +114,7 @@
             <objects>
                 <viewController id="ZfI-ZA-tss" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HPQ-3N-Erg">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="kdI-cb-vhg">
@@ -253,7 +253,7 @@
             <objects>
                 <viewController id="yQu-fu-dhW" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ipx-F5-dki">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="fgn-u7-4cZ">
@@ -319,7 +319,7 @@
             <objects>
                 <viewController id="cOC-uF-tTp" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="RAn-h9-Sw5">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="MVa-Li-5PX">
@@ -447,6 +447,9 @@
                                                 </stackView>
                                             </subviews>
                                         </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="6c9-Uh-zAh" kind="presentation" trigger="accessoryAction" id="TV8-7c-D2v"/>
+                                        </connections>
                                     </tableViewCell>
                                 </prototypes>
                             </tableView>
@@ -464,6 +467,9 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Chat" id="qpU-Hy-XYf">
                             <color key="tintColor" systemColor="systemGreenColor"/>
+                            <connections>
+                                <segue destination="hU9-qU-IsI" kind="presentation" id="nWt-Hf-iqO"/>
+                            </connections>
                         </barButtonItem>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
@@ -513,9 +519,9 @@
         <!--Messages-->
         <scene sceneID="AHt-Gv-qVg">
             <objects>
-                <viewController storyboardIdentifier="ViewController" id="fhM-OI-Kiu" customClass="ViewController" customModule="Class_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" modalPresentationStyle="fullScreen" id="fhM-OI-Kiu" customClass="ViewController" customModule="Class_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mGR-V8-OC7">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mox-2c-6NI">
@@ -542,7 +548,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hU9-qU-IsI" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ugJ-MM-MRW">
-                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="56"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
