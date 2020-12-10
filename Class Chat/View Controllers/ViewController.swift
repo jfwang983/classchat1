@@ -8,7 +8,7 @@
 import UIKit
 import MessageKit
 
-class MessagesViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     @IBOutlet var myTable: UITableView!
     override func viewDidLoad() {
         super.viewDidLoad()

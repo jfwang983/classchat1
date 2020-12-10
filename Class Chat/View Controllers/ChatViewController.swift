@@ -29,7 +29,9 @@ class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLa
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        messagesCollectionView.messagesDataSource = self
+        messagesCollectionView.messagesDisplayDelegate = self
+        messagesCollectionView.messagesLayoutDelegate = self
         messages.append(Message(sender: currentUser,
                                 messageId: "1",
                                 sentDate: Date().addingTimeInterval(-86400),
@@ -42,10 +44,7 @@ class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLa
                                 messageId: "3",
                                 sentDate: Date().addingTimeInterval(-76400),
                                 kind: .text("okay")))
-       
-        messagesCollectionView.messagesDataSource = self
-        messagesCollectionView.messagesLayoutDelegate = self
-        messagesCollectionView.messagesDisplayDelegate = self
+        
         // Do any additional setup after loading the view.
     }
     

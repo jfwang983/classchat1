@@ -529,7 +529,7 @@
         <!--Messages-->
         <scene sceneID="AHt-Gv-qVg">
             <objects>
-                <viewController storyboardIdentifier="ViewController" modalPresentationStyle="fullScreen" id="fhM-OI-Kiu" customClass="MessagesViewController" customModule="Class_Chat" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ViewController" modalPresentationStyle="fullScreen" id="fhM-OI-Kiu" customClass="ViewController" customModule="Class_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="mGR-V8-OC7">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
