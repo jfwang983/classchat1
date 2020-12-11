@@ -8,8 +8,15 @@
 import UIKit
 
 class CreateClassViewController: UIViewController {
+    @IBOutlet weak var titleClassTextField: UITextField!
+    @IBOutlet weak var yourNameTextField: UITextField!
     @IBAction func cancelButtonIsPressed(_ sender: Any) {
         dismiss(animated: true, completion: nil)
+    }
+    @IBAction func createClassSubmit(_ sender: Any) {
+       
+        
+        
     }
     
     override func viewDidLoad() {

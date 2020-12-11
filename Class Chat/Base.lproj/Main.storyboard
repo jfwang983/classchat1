@@ -889,11 +889,18 @@
                                 <state key="normal" title="Submit">
                                     <color key="titleColor" systemColor="systemGreenColor"/>
                                 </state>
+                                <connections>
+                                    <action selector="createClassSubmit:" destination="fyb-8K-jnx" eventType="touchUpInside" id="Dfd-68-lUM"/>
+                                </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="jRB-eD-xVK"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="titleClassTextField" destination="oEG-N4-1gA" id="epE-mV-9gr"/>
+                        <outlet property="yourNameTextField" destination="WUa-lZ-1vn" id="LKv-Ju-TCj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="p4q-Cb-vxT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
