@@ -35,15 +35,15 @@ class ChatViewController: MessagesViewController, MessagesDataSource, MessagesLa
         messages.append(Message(sender: currentUser,
                                 messageId: "1",
                                 sentDate: Date().addingTimeInterval(-86400),
-                                kind: .text("hello")))
+                                kind: .text("Hello")))
         messages.append(Message(sender: otherUser,
                                 messageId: "2",
                                 sentDate: Date().addingTimeInterval(-76400),
-                                kind: .text("hi")))
+                                kind: .text("HI")))
         messages.append(Message(sender: otherUser,
                                 messageId: "3",
                                 sentDate: Date().addingTimeInterval(-76400),
-                                kind: .text("okay")))
+                                kind: .text("What's up?")))
         
         // Do any additional setup after loading the view.
     }
