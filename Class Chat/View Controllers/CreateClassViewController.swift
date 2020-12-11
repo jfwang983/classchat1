@@ -8,7 +8,10 @@
 import UIKit
 
 class CreateClassViewController: UIViewController {
-
+    @IBAction func cancelButtonIsPressed(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
