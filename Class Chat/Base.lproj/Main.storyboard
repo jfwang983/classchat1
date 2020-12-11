@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="6c9-Uh-zAh">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
@@ -403,7 +403,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dcx-gW-fyO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3047.826086956522" y="2298.8839285714284"/>
+            <point key="canvasLocation" x="2780" y="2299"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="dnH-MY-UoP">
@@ -449,7 +449,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="f7L-2x-yBg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3814" y="1588"/>
+            <point key="canvasLocation" x="3535" y="1602"/>
         </scene>
         <!--Assignments-->
         <scene sceneID="TmN-h5-CTQ">
@@ -526,7 +526,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zRp-pa-Qh5" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3047.826086956522" y="1587.7232142857142"/>
+            <point key="canvasLocation" x="2780" y="1603"/>
         </scene>
         <!--Grades-->
         <scene sceneID="w58-3a-VDX">
@@ -751,7 +751,7 @@
                             <barButtonItem title="Chat" image="message.fill" catalog="system" id="qpU-Hy-XYf">
                                 <color key="tintColor" systemColor="systemGreenColor"/>
                                 <connections>
-                                    <segue destination="hU9-qU-IsI" kind="presentation" id="N7E-Zr-Kby"/>
+                                    <segue destination="hU9-qU-IsI" kind="presentation" id="2XI-jg-0Fb"/>
                                 </connections>
                             </barButtonItem>
                             <barButtonItem title="Item" image="plus" catalog="system" id="uJb-ZJ-oet">
@@ -940,7 +940,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Mox-2c-6NI">
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="vrB-zh-rQu">
                                 <rect key="frame" x="0.0" y="88" width="414" height="808"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -957,13 +957,10 @@
                             <color key="tintColor" systemColor="systemGreenColor"/>
                         </barButtonItem>
                     </navigationItem>
-                    <connections>
-                        <outlet property="myTable" destination="Mox-2c-6NI" id="Prj-IL-bHs"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="u69-EE-hgg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="562" y="863"/>
+            <point key="canvasLocation" x="560.86956521739137" y="862.5"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dwZ-m0-QFi">
