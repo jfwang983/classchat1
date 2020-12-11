@@ -8,8 +8,10 @@
 import UIKit
 import MessageKit
 
-class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+class MessageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    
     @IBOutlet var myTable: UITableView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         myTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell" )
