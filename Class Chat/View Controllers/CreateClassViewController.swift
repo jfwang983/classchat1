@@ -20,6 +20,10 @@ class CreateClassViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        titleClassTextField.returnKeyType = .done
+        yourNameTextField.returnKeyType = .done
+        
+
 
         // Do any additional setup after loading the view.
     }
