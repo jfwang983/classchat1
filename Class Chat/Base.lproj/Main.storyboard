@@ -122,7 +122,7 @@
         <!--Announcements-->
         <scene sceneID="zeS-Ow-EQP">
             <objects>
-                <viewController modalPresentationStyle="fullScreen" id="ZfI-ZA-tss" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="AnnouncementsViewController" modalPresentationStyle="fullScreen" id="ZfI-ZA-tss" customClass="AnnouncementsViewController" customModule="Class_Chat" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="HPQ-3N-Erg">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -950,10 +950,10 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Messages" id="jO3-8v-wY8">
-                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="znR-SQ-r8d">
+                        <barButtonItem key="leftBarButtonItem" title="Item" image="chevron.backward" catalog="system" id="pkA-Sx-N6h">
                             <color key="tintColor" systemColor="systemGreenColor"/>
                             <connections>
-                                <action selector="messagesBackButton:" destination="fhM-OI-Kiu" id="vzR-bU-CSz"/>
+                                <action selector="messageBackPress:" destination="fhM-OI-Kiu" id="FeY-kO-gCj"/>
                             </connections>
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Item" image="paperplane.fill" catalog="system" id="aFT-4f-nuQ">
@@ -961,7 +961,6 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="messagesBackButton" destination="znR-SQ-r8d" id="EYs-GZ-DdF"/>
                         <outlet property="myTable" destination="vrB-zh-rQu" id="n1o-lW-uks"/>
                     </connections>
                 </viewController>

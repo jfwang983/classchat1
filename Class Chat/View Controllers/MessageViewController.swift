@@ -9,6 +9,10 @@ import UIKit
 import MessageKit
 
 class MessageViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
+    @IBAction func messageBackPress(_ sender: Any) {
+        dismiss(animated: true, completion: nil)
+    }
+    
     
     @IBOutlet var myTable: UITableView!
     
