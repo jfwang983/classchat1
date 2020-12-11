@@ -16,7 +16,6 @@ class CreateClassViewController: UIViewController {
     @IBAction func createClassSubmit(_ sender: Any) {
        
         
-        
     }
     
     override func viewDidLoad() {
