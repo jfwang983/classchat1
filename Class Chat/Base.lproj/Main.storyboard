@@ -692,29 +692,21 @@
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="13" rowHeight="125" id="xCT-TO-DJE" customClass="ClassCell" customModule="Class_Chat" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="13" reuseIdentifier="ClassCell" rowHeight="125" id="xCT-TO-DJE" customClass="ClassCell" customModule="Class_Chat" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="125"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xCT-TO-DJE" id="m7x-dc-p62" customClass="ClassCell" customModule="Class_Chat" customModuleProvider="target">
                                             <rect key="frame" x="0.0" y="0.0" width="414" height="125"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Class Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acy-Hr-LsX">
-                                                    <rect key="frame" x="20" y="11" width="236" height="20"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acy-Hr-LsX">
+                                                    <rect key="frame" x="20" y="11" width="98.5" height="20"/>
                                                     <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Teacher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-sn-2Cb">
-                                                    <rect key="frame" x="20" y="93" width="61" height="21"/>
-                                                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                                    <color key="textColor" systemColor="systemGrayColor"/>
-                                                    <nil key="highlightedColor"/>
-                                                </label>
-                                                <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="rgz-6D-uzt">
-                                                    <rect key="frame" x="295" y="11" width="98" height="20.5"/>
+                                                <stackView opaque="NO" contentMode="scaleToFill" spacing="3" translatesAutoresizingMaskIntoConstraints="NO" id="rgz-6D-uzt">
+                                                    <rect key="frame" x="296" y="11" width="98" height="20.5"/>
                                                     <subviews>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Grade:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7sd-FM-hBn">
                                                             <rect key="frame" x="0.0" y="0.0" width="51.5" height="20.5"/>
@@ -730,7 +722,23 @@
                                                         </label>
                                                     </subviews>
                                                 </stackView>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-sn-2Cb">
+                                                    <rect key="frame" x="20" y="93" width="374" height="20.5"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" systemColor="systemGrayColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
                                             </subviews>
+                                            <constraints>
+                                                <constraint firstItem="acy-Hr-LsX" firstAttribute="leading" secondItem="m7x-dc-p62" secondAttribute="leadingMargin" id="3t7-5h-fyg"/>
+                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="leading" secondItem="m7x-dc-p62" secondAttribute="leadingMargin" id="6NI-SO-rfK"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="rgz-6D-uzt" secondAttribute="trailing" id="APr-Qz-6ZD"/>
+                                                <constraint firstItem="acy-Hr-LsX" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="topMargin" id="LfD-C5-yud"/>
+                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="top" secondItem="acy-Hr-LsX" secondAttribute="bottom" constant="62" id="YWM-2o-dOF"/>
+                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="top" secondItem="rgz-6D-uzt" secondAttribute="bottom" constant="61.5" id="Zdh-Hi-KkW"/>
+                                                <constraint firstItem="rgz-6D-uzt" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="topMargin" id="we6-kL-U3t"/>
+                                                <constraint firstAttribute="trailingMargin" secondItem="Cvc-sn-2Cb" secondAttribute="trailing" id="zFl-qX-JL2"/>
+                                            </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="className" destination="acy-Hr-LsX" id="0Zv-fu-epN"/>
@@ -768,6 +776,9 @@
                         </rightBarButtonItems>
                     </navigationItem>
                     <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <outlet property="classTableView" destination="Iq8-7X-wNC" id="PCy-fM-Vrl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Y7i-0B-xwd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

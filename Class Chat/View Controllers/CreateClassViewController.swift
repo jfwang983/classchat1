@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import Parse
 
 class CreateClassViewController: UIViewController {
     @IBOutlet weak var titleClassTextField: UITextField!
@@ -14,7 +15,22 @@ class CreateClassViewController: UIViewController {
         dismiss(animated: true, completion: nil)
     }
     @IBAction func createClassSubmit(_ sender: Any) {
-       
+        let classtype = PFObject(className: "Classes")
+        
+        classtype["classname"] = titleClassTextField.text
+         classtype["teacher"] = yourNameTextField.text
+         classtype["user"] = PFUser.current()!
+         
+         classtype.saveInBackground { (success, error) in
+             if success{
+                 self.dismiss(animated: true, completion: nil)
+                 print ("saved!")
+             }
+             else {
+                 print ("error!")
+             }
+         }
+
         
     }
     
