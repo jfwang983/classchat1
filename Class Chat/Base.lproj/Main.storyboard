@@ -735,6 +735,7 @@
                                         <connections>
                                             <outlet property="className" destination="acy-Hr-LsX" id="0Zv-fu-epN"/>
                                             <outlet property="teacherName" destination="Cvc-sn-2Cb" id="qeC-QJ-pbL"/>
+                                            <segue destination="6c9-Uh-zAh" kind="presentation" id="uj7-Ij-nUf"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
