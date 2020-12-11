@@ -2,6 +2,8 @@ ${PODS_ROOT}/Target Support Files/Pods-Class Chat-Class ChatUITests/Pods-Class C
 ${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework
 ${BUILT_PRODUCTS_DIR}/CardParts/CardParts.framework
 ${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
+${BUILT_PRODUCTS_DIR}/InputBarAccessoryView/InputBarAccessoryView.framework
+${BUILT_PRODUCTS_DIR}/MessageKit/MessageKit.framework
 ${BUILT_PRODUCTS_DIR}/Parse/Parse.framework
 ${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
 ${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework

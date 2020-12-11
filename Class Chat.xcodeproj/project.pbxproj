@@ -8,9 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		24C250B22F13A756C4DF5E8B /* Pods_Class_Chat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 465DEEE582F413FF47A01423 /* Pods_Class_Chat.framework */; };
+		2C21B345257EAA8600539EA4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B344257EAA8600539EA4 /* ChatViewController.swift */; };
+		2C21B49625831F3500539EA4 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B49525831F3500539EA4 /* MessageViewController.swift */; };
+		2C21B4AC25832ADA00539EA4 /* CreateClassViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B4AB25832ADA00539EA4 /* CreateClassViewController.swift */; };
+		2C21B4D52583563B00539EA4 /* ClassCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B4D42583563B00539EA4 /* ClassCell.swift */; };
+		2C21B4E02583F81E00539EA4 /* AnnouncementsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C21B4DF2583F81E00539EA4 /* AnnouncementsViewController.swift */; };
 		8036BAD82550F82B00AF4B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036BAD72550F82B00AF4B47 /* AppDelegate.swift */; };
 		8036BADA2550F82B00AF4B47 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036BAD92550F82B00AF4B47 /* SceneDelegate.swift */; };
-		8036BADC2550F82B00AF4B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8036BADB2550F82B00AF4B47 /* ViewController.swift */; };
 		8036BADF2550F82B00AF4B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8036BADD2550F82B00AF4B47 /* Main.storyboard */; };
 		8036BAE12550F82C00AF4B47 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8036BAE02550F82C00AF4B47 /* Assets.xcassets */; };
 		8036BAE42550F82C00AF4B47 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8036BAE22550F82C00AF4B47 /* LaunchScreen.storyboard */; };
@@ -41,6 +45,11 @@
 
 /* Begin PBXFileReference section */
 		0F922B02FBCB1593FE2A8FA3 /* Pods-Class Chat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Class Chat.debug.xcconfig"; path = "Target Support Files/Pods-Class Chat/Pods-Class Chat.debug.xcconfig"; sourceTree = "<group>"; };
+		2C21B344257EAA8600539EA4 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		2C21B49525831F3500539EA4 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		2C21B4AB25832ADA00539EA4 /* CreateClassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateClassViewController.swift; sourceTree = "<group>"; };
+		2C21B4D42583563B00539EA4 /* ClassCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassCell.swift; sourceTree = "<group>"; };
+		2C21B4DF2583F81E00539EA4 /* AnnouncementsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnouncementsViewController.swift; sourceTree = "<group>"; };
 		3E5E20D9D80981257E0BBBCC /* Pods-Class ChatTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Class ChatTests.release.xcconfig"; path = "Target Support Files/Pods-Class ChatTests/Pods-Class ChatTests.release.xcconfig"; sourceTree = "<group>"; };
 		465DEEE582F413FF47A01423 /* Pods_Class_Chat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Class_Chat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4697FCAB5FC150E8D624079C /* Pods-Class Chat-Class ChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Class Chat-Class ChatUITests.debug.xcconfig"; path = "Target Support Files/Pods-Class Chat-Class ChatUITests/Pods-Class Chat-Class ChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -48,7 +57,6 @@
 		8036BAD42550F82B00AF4B47 /* Class Chat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Class Chat.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8036BAD72550F82B00AF4B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8036BAD92550F82B00AF4B47 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8036BADB2550F82B00AF4B47 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8036BADE2550F82B00AF4B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8036BAE02550F82C00AF4B47 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8036BAE32550F82C00AF4B47 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -136,7 +144,8 @@
 				8036BB2D255282F000AF4B47 /* View Controllers */,
 				8036BAD72550F82B00AF4B47 /* AppDelegate.swift */,
 				8036BAD92550F82B00AF4B47 /* SceneDelegate.swift */,
-				8036BADB2550F82B00AF4B47 /* ViewController.swift */,
+				2C21B4D42583563B00539EA4 /* ClassCell.swift */,
+				2C21B4DF2583F81E00539EA4 /* AnnouncementsViewController.swift */,
 				8036BADD2550F82B00AF4B47 /* Main.storyboard */,
 				8036BAE02550F82C00AF4B47 /* Assets.xcassets */,
 				8036BAE22550F82C00AF4B47 /* LaunchScreen.storyboard */,
@@ -168,6 +177,9 @@
 			children = (
 				80C4F9DF2563ABF800928233 /* LoginViewController.swift */,
 				80C4F9E42563B61000928233 /* ClassesViewController.swift */,
+				2C21B4AB25832ADA00539EA4 /* CreateClassViewController.swift */,
+				2C21B344257EAA8600539EA4 /* ChatViewController.swift */,
+				2C21B49525831F3500539EA4 /* MessageViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -420,11 +432,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2C21B4D52583563B00539EA4 /* ClassCell.swift in Sources */,
 				80C4F9E02563ABF800928233 /* LoginViewController.swift in Sources */,
-				8036BADC2550F82B00AF4B47 /* ViewController.swift in Sources */,
 				80C4F9E52563B61000928233 /* ClassesViewController.swift in Sources */,
+				2C21B4AC25832ADA00539EA4 /* CreateClassViewController.swift in Sources */,
+				2C21B4E02583F81E00539EA4 /* AnnouncementsViewController.swift in Sources */,
 				8036BAD82550F82B00AF4B47 /* AppDelegate.swift in Sources */,
+				2C21B345257EAA8600539EA4 /* ChatViewController.swift in Sources */,
 				8036BADA2550F82B00AF4B47 /* SceneDelegate.swift in Sources */,
+				2C21B49625831F3500539EA4 /* MessageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

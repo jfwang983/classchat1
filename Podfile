@@ -8,6 +8,7 @@ target 'Class Chat' do
   # Pods for Class Chat
   pod 'Parse'
   pod 'CardParts'
+  pod 'MessageKit'
 
   target 'Class ChatTests' do
     inherit! :search_paths
