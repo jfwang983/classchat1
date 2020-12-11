@@ -703,51 +703,47 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Class Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="acy-Hr-LsX">
-                                                    <rect key="frame" x="20.5" y="11.5" width="274.5" height="20.5"/>
+                                                    <rect key="frame" x="20.5" y="13" width="285" height="20"/>
                                                     <fontDescription key="fontDescription" name="ArialRoundedMTBold" family="Arial Rounded MT Bold" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Teacher" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cvc-sn-2Cb">
-                                                    <rect key="frame" x="20.5" y="98.5" width="374" height="20.5"/>
+                                                    <rect key="frame" x="20.5" y="99.5" width="374" height="20.5"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemGrayColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="100%" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qZ1-gv-6Vh">
-                                                    <rect key="frame" x="349.5" y="11.5" width="44" height="20"/>
+                                                    <rect key="frame" x="358.5" y="11.5" width="44" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemGrayColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="252" verticalHuggingPriority="251" text="Grade:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ceX-Za-xiR">
-                                                    <rect key="frame" x="295.5" y="11.5" width="52" height="20"/>
+                                                    <rect key="frame" x="306" y="11.5" width="52" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <color key="textColor" systemColor="systemGrayColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="topMargin" constant="87.5" id="1Ak-or-tUm"/>
-                                                <constraint firstAttribute="bottomMargin" relation="greaterThanOrEqual" secondItem="Cvc-sn-2Cb" secondAttribute="bottom" constant="1" id="6fD-wp-UAh"/>
-                                                <constraint firstItem="qZ1-gv-6Vh" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="topMargin" constant="0.5" id="7S9-4b-PDQ"/>
-                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="leading" secondItem="m7x-dc-p62" secondAttribute="leadingMargin" constant="0.5" id="Den-Z2-bIs"/>
-                                                <constraint firstAttribute="trailingMargin" secondItem="qZ1-gv-6Vh" secondAttribute="trailing" constant="0.5" id="G2W-qG-ipm"/>
-                                                <constraint firstItem="ceX-Za-xiR" firstAttribute="leading" secondItem="acy-Hr-LsX" secondAttribute="trailing" constant="0.5" id="Gpl-nL-jxO"/>
-                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="trailing" secondItem="m7x-dc-p62" secondAttribute="trailingMargin" constant="0.5" id="K0u-9f-dIS"/>
-                                                <constraint firstItem="qZ1-gv-6Vh" firstAttribute="leading" secondItem="ceX-Za-xiR" secondAttribute="trailing" constant="2" id="OlD-Qv-W42"/>
-                                                <constraint firstItem="acy-Hr-LsX" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="topMargin" constant="0.5" id="SEr-SX-Xq2"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="ceX-Za-xiR" secondAttribute="bottom" constant="97.5" id="VOX-ja-xeL"/>
-                                                <constraint firstItem="acy-Hr-LsX" firstAttribute="leading" secondItem="m7x-dc-p62" secondAttribute="leadingMargin" constant="0.5" id="fKb-wQ-uK4"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="qZ1-gv-6Vh" secondAttribute="bottom" constant="97.5" id="p5C-sQ-KhK"/>
-                                                <constraint firstItem="ceX-Za-xiR" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="topMargin" constant="0.5" id="rVm-6P-HK7"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="acy-Hr-LsX" secondAttribute="bottom" constant="97" id="xPe-Oj-a6x"/>
+                                                <constraint firstItem="ceX-Za-xiR" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="top" constant="11.5" id="2MC-9l-Szv"/>
+                                                <constraint firstItem="ceX-Za-xiR" firstAttribute="leading" secondItem="acy-Hr-LsX" secondAttribute="trailing" constant="0.5" id="37h-17-aSO"/>
+                                                <constraint firstAttribute="bottom" secondItem="Cvc-sn-2Cb" secondAttribute="bottom" constant="20" id="5zm-E3-UYx"/>
+                                                <constraint firstAttribute="trailing" secondItem="Cvc-sn-2Cb" secondAttribute="trailing" constant="19.5" id="6aO-Eg-5Fc"/>
+                                                <constraint firstItem="qZ1-gv-6Vh" firstAttribute="leading" secondItem="ceX-Za-xiR" secondAttribute="trailing" constant="0.5" id="A2h-3I-W2o"/>
+                                                <constraint firstItem="acy-Hr-LsX" firstAttribute="leading" secondItem="m7x-dc-p62" secondAttribute="leading" constant="20.5" id="AEw-V3-oC4"/>
+                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="leading" secondItem="m7x-dc-p62" secondAttribute="leading" constant="20.5" id="Scf-W8-UoF"/>
+                                                <constraint firstAttribute="trailing" secondItem="qZ1-gv-6Vh" secondAttribute="trailing" constant="11.5" id="qb2-km-Vhq"/>
+                                                <constraint firstItem="Cvc-sn-2Cb" firstAttribute="top" secondItem="acy-Hr-LsX" secondAttribute="bottom" constant="66.5" id="qtC-m4-zOQ"/>
+                                                <constraint firstItem="qZ1-gv-6Vh" firstAttribute="top" secondItem="m7x-dc-p62" secondAttribute="top" constant="11.5" id="x7K-Qq-Z7x"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
                                             <outlet property="className" destination="acy-Hr-LsX" id="0Zv-fu-epN"/>
                                             <outlet property="teacherName" destination="Cvc-sn-2Cb" id="qeC-QJ-pbL"/>
-                                            <segue destination="6c9-Uh-zAh" kind="presentation" id="uj7-Ij-nUf"/>
+                                            <segue destination="6c9-Uh-zAh" kind="presentation" id="x9T-bF-Lpr"/>
                                         </connections>
                                     </tableViewCell>
                                 </prototypes>
