@@ -145,6 +145,7 @@
 				8036BAD72550F82B00AF4B47 /* AppDelegate.swift */,
 				8036BAD92550F82B00AF4B47 /* SceneDelegate.swift */,
 				2C21B4D42583563B00539EA4 /* ClassCell.swift */,
+				2C21B4DF2583F81E00539EA4 /* AnnouncementsViewController.swift */,
 				8036BADD2550F82B00AF4B47 /* Main.storyboard */,
 				8036BAE02550F82C00AF4B47 /* Assets.xcassets */,
 				8036BAE22550F82C00AF4B47 /* LaunchScreen.storyboard */,
@@ -179,7 +180,6 @@
 				2C21B4AB25832ADA00539EA4 /* CreateClassViewController.swift */,
 				2C21B344257EAA8600539EA4 /* ChatViewController.swift */,
 				2C21B49525831F3500539EA4 /* MessageViewController.swift */,
-				2C21B4DF2583F81E00539EA4 /* AnnouncementsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
