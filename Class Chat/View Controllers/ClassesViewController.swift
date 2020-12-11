@@ -9,7 +9,7 @@ import UIKit
 import Parse
 
 class ClassesViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
